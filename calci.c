@@ -50,9 +50,7 @@ int percentage(int x,int y)
  
 int main() 
 { 
- int x,y,options=0; 
- printf("Enter numbers one by one:\n"); 
- scanf("%d%d",&x,&y); 
+ int x,y,options=0;  
  printf("\nWelcome! What do you want to perform your calculator?\n"); 
  printf("\n1.For Addition enter 1\n\n2.For Subtraction enter 2\n"); 
  printf("\n3.For Multiplication enter 3\n\n4.For Division enter 4\n"); 
@@ -60,6 +58,8 @@ int main()
  printf("\n7.For Percentage of both numbers enter 7\n"); 
  printf("\nEnter your choice:"); 
  scanf("%d",&options); 
+ printf("Enter numbers one by one:\n"); 
+ scanf("%d%d",&x,&y);
  switch(options) 
  { 
  case 1: 
